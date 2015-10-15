@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "execute-script": "6to5 src/index.js | iojs"
+  },
+  "dependencies": {
+    "babel": "^4.7.16",
+    "bluebird": "^2.9.18"
+  },
+  "devDependencies": {
+    "babel": "*",
+    "mocha": "*"
+  }
+}
